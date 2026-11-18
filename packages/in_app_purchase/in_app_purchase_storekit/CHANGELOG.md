@@ -1,3 +1,7 @@
+## 0.4.17+1
+
+* Fixes StoreKit 2 purchases and restores with transaction ID `0` having no purchase ID, which made `completePurchase` throw and left the transaction unfinished.
+
 ## 0.4.17
 
 * Uses `Product.purchase(confirmIn:options:)` for StoreKit 2 purchases when a view controller,
